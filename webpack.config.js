@@ -1,8 +1,13 @@
 module.exports = {
-    entry: "./src/index.tsx",
+    entry: {
+        "vendor": "./src/vendor.tsx",
+        "app": "./src/index.tsx"
+    },
     output: {
         filename: "bundle.js",
-        path: __dirname + "/dist"
+        chunkFilename: "[id].chunk.js",
+        path: __dirname + "/dist",
+        publicPath: "http://localhost:8080/"
     },
 
     // Enable sourcemaps for debugging webpack's output.
@@ -30,5 +35,5 @@ module.exports = {
     externals: {
         "react": "React",
         "react-dom": "ReactDOM"
-    },
+    }
 };
