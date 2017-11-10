@@ -1,0 +1,30 @@
+{
+  "name": "cmx.delaunay",
+  "version": "0.0.1",
+  "description": "Delaunay Triangulation in ReactJS",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattuu/Cmx.Delaunay.git"
+  },
+  "author": "Matt Uliasz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattuu/Cmx.Delaunay/issues"
+  },
+  "homepage": "https://github.com/mattuu/Cmx.Delaunay#readme",
+  "dependencies": {
+    "@types/react": "^16.0.22",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.3.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.6.1"
+  }
+}
