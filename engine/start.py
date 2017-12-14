@@ -1,19 +1,6 @@
-class Point:
-    def __init___(self, x, y):
-        self.X = x
-        self.Y = y
+from point import Point
+import point_generator
 
-    def print(self):
-        print(self.X, self.Y)
-
-    X = 0
-    Y = 0
-
-POINTS = [{1, 2}, {3, 4}, {}]
-
-for p in POINTS:
-    print(p)
-
-
-p = Point(100, 20)
-p.print()
+points = point_generator.generate(10)
+for p in points:
+    p.print()
